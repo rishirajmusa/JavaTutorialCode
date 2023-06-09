@@ -1,9 +1,9 @@
 interface Fly {
 	
 }
-public class MyObject {
+public  class MyObject {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		MyObject o = new MyObject();
 		System.out.println(o instanceof MyObject);//output is true
 		//instanceof gives boolean values
