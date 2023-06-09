@@ -1,9 +1,9 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueuesAreFun {
+public  class QueuesAreFun {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		Queue<String> waitingLine = new LinkedList<String>();//Syntax of creating queues
 		waitingLine.add("First Customer ");
 		waitingLine.add("Second Customer ");//that's how we add elements in a queue
