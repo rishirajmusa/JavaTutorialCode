@@ -1,7 +1,7 @@
 
-public class PrimitiveDataTypes {
+public  class PrimitiveDataTypes {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		//I always had some confusion about Primitive data type 
 		//so i am making a project just to explain those
 		int iMin=Integer.MIN_VALUE;
