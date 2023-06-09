@@ -2,7 +2,7 @@ enum Level{//We can make enums OutSide and inside of a Class
 	//This enums was made outside of a class, so let's make one inside of a class
 	Low,Medium,High;
 }
-public class EnumsTutorial {
+public  class EnumsTutorial {
 	
 	enum Taste{
 		Sweet,Sour,Tangy,Bitter,Salty,Spicy;
@@ -14,7 +14,7 @@ public class EnumsTutorial {
 	
 	//So enum is basically for those things which do not change
 	
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		System.out.println(levels[0]);
 		System.out.println(levels[1]);
 		System.out.println(levels[2]);
