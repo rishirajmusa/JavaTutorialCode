@@ -6,13 +6,13 @@ class Student{
 		this.studentId=studentId;
 		this.name=name;
 	}
-	public String toString() {//added later 
+	public  String toString() {//added later 
 		return studentId+" "+name;
 	}
 }
-public class ToStringTutorial {
+public  class ToStringTutorial {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		Student s=new Student(1,"Shiv");
 		Student s2 =new Student(2,"Ram");
 		System.out.println(s);//output would be Student@372f7a8d
