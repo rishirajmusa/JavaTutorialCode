@@ -1,9 +1,9 @@
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class HashSetTutorial {
+public  class HashSetTutorial {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 	HashSet<Integer> h=new HashSet<Integer>();
 	h.add(5);
 	h.add(51);
