@@ -1,7 +1,7 @@
 
-public class DiffBwTwoEq {
+public  class DiffBwTwoEq {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		//here i am going to show the difference between "==" and ".equals"
 		//let's create two strings
 		String s ="dog";//here i have declared two strings both with same value
