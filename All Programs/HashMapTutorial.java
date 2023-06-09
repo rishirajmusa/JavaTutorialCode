@@ -1,8 +1,8 @@
 import java.util.HashMap;
 
-public class HashMapTutorial {
+public  class HashMapTutorial {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		HashMap<String, String> funny = new HashMap<String, String>();
 		funny.put("Rishi", "Male");
 		funny.put("Manoj", "Male");
