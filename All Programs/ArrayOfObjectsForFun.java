@@ -1,11 +1,11 @@
 class Cow{
-	public void SayMooooooo() {
+	public  void SayMooooooo() {
 		System.out.println("Mooooooooooooooooooooooo");
 	}
 }
-public class ArrayOfObjectsForFun {
+public  class ArrayOfObjectsForFun {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		Cow cow0=new Cow();
 		Cow cow1=new Cow();
 		Cow cow2=new Cow();
