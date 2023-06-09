@@ -1,12 +1,12 @@
 package findDuplicateCharacters;
 import java.util.Scanner;
 
-public class Duplicate {
+public  class Duplicate {
 static Scanner scan = new Scanner(System.in);
 
 
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		System.out.println("Enter Text to find duplicacy : ");	
 		String character = scan.nextLine();
 		scan.close();
@@ -15,7 +15,7 @@ static Scanner scan = new Scanner(System.in);
 	
 	
 	
-	public static void findDuplicate(String s) {
+	public  static void findDuplicate(String s) {
 		String join="";
 		String temp="";
 		String dup ="";
