@@ -1,9 +1,9 @@
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class Linky {
+public  class Linky {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		LinkedList<String> linky=new LinkedList<String>();
 		linky.add("Abc");
 		linky.add("Def");
