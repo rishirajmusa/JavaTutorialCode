@@ -1,7 +1,7 @@
 final class FinalKeywordUse {//i made this class final line 12
   final int MAX=5;// I MADE THIS VARIABLE FINAL line 8
 //final method is on line 17
-  public static void main(String[] args) {
+  public  static void main(String[] args) {
     System.out.println("Hello world!");
   }
   void change(int newMax){
@@ -14,13 +14,13 @@ class Otherclass extends FinalKeywordUse{
   
 }
 class Finalmethod{
-  final public void sayHello(){//made this method final line 23
+  final public  void sayHello(){//made this method final line 23
   System.out.println("hello");
 }
   
 }
 class Changemethod extends Finalmethod{
-  public void sayHello(){//tried overriding it but can't
+  public  void sayHello(){//tried overriding it but can't
     System.out.println("hi");
   }
 }
