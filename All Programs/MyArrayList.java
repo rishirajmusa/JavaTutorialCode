@@ -5,8 +5,8 @@ import java.util.Iterator;
 //The array is a fixed sized data structure thus, the array always needs to mention the size of the elements. 
 //On the other hand, ArrayList is not a fixed sized data structure, thus there is no need to mention the size of the ArrayList especially creating its object.
 //Operations such as indexOf(), remove() are supported by ArrayList in Java but are no supported by array.  
-public class MyArrayList {
-    public static void main(String[] args)
+public  class MyArrayList {
+    public  static void main(String[] args)
     {
         // Construct an ArrayList
         ArrayList<Integer> array = new ArrayList<>(Arrays.asList(10,20,5000,600,40));
