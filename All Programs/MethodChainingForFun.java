@@ -1,7 +1,7 @@
 //
-//public class MethodChainingForFun {
+//public  class MethodChainingForFun {
 //
-//	public static void main(String[] args) {
+//	public  static void main(String[] args) {
 //		Student s= new Student();
 //		s.setAge(23);
 //		s.setName("Rishi");						//Output Would be
@@ -12,10 +12,10 @@
 //class Student{
 //	String name;
 //	int Age;
-//	public void setName(String name){
+//	public  void setName(String name){
 //		this.name=name;
 //	}
-//	public void setAge(int Age) {
+//	public  void setAge(int Age) {
 //		this.Age=Age;
 //	}
 //	
@@ -26,9 +26,9 @@
 //When you return "this" from a method the current object will be returned.
 
 
-public class MethodChainingForFun {
+public  class MethodChainingForFun {
 
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		Student s= new Student();
 		s.setName("Rishi").setAge(23);
 		System.out.println("Name is : "+s.name);//Output would be same as above one.
@@ -38,11 +38,11 @@ public class MethodChainingForFun {
 class Student{
 	String name;
 	int Age;
-	public Student setName(String name){//and because of this keyword this method is return a new refrence to student object
+	public  Student setName(String name){//and because of this keyword this method is return a new refrence to student object
 		this.name=name;
 		return this;// now i have put here 'return this'
 	}
-	public void setAge(int Age) {
+	public  void setAge(int Age) {
 		this.Age=Age;
 	}
 	
