@@ -1,9 +1,9 @@
 import java.util.Stack;
 
-public class StacksAreFin {
+public  class StacksAreFin {
 
 	
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 	Stack<Integer> stk=new Stack<Integer>();//The stack is a linear data structure that is used to store the collection of objects. It is based on Last-In-First-Out (LIFO).
 	System.out.println(stk);
 	stk.add(5);
