@@ -1,8 +1,8 @@
 
-public class TryCatchFinallyExample {
+public  class TryCatchFinallyExample {
 
 	@SuppressWarnings("null")
-	public static void main(String[] args) {
+	public  static void main(String[] args) {
 		int[] array = null;
 		int[] a = new int[2];
 		a[0]=1;
