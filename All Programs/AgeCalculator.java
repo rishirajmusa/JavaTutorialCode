@@ -28,9 +28,9 @@ static Scanner scan  = new Scanner(System.in);
 		int day = scan.nextInt();
 		scan.close();
 		LocalDate DateOfBirth = LocalDate.of( year,  month,  day);
-		int Y=Period.between(today, DateOfBirth).getYears();
-		int M=Period.between(today, DateOfBirth).getMonths();
-		int D=Period.between(today, DateOfBirth).getDays();
+		int Y=Period.between(DateOfBirth, today).getYears();
+		int M=Period.between(DateOfBirth, today).getMonths();
+		int D=Period.between(DateOfBirth, today).getDays();
 		System.out.println("Years "+Y +",  Months"+M+",  Days"+D);
 		}
 		catch(InputMismatchException e ){
