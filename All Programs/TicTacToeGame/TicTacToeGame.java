@@ -77,7 +77,7 @@ static int Playerpos;
 					printGameBoard(gameboard);
 					break;
 				}
-			}
+			}scan.close();
 			
 }
 	public static void printGameBoard(char [][] gameboard) {
