@@ -1,3 +1,4 @@
+package gfd;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -15,33 +16,21 @@ public class PersonalityTest {
 				Scanner scan = new Scanner(System.in);
 				System.out.println("Please Enter your name : ");
 				String letter = scan.nextLine().toUpperCase();
-				if(letter.isEmpty()) {
-					System.out.println("Name is Blank!"+"\n");
-					ValidInput = false;
-				}else {
-					ValidInput =true;
-				}
 				System.out.println("Enter the day of the month you were born : ");
 				 day = scan.nextInt();
-				 if(day>31 || day <=0) {
-					 System.out.println("Day is Invalid!"+"\n");
-					 ValidInput = false;
-				 }else {
-					 ValidInput = true;
-				 }
+				 
 				 char ch[]=letter.toCharArray();
 					for(char d:ch) {
-						if(Character.isDigit(d)) {
-							System.out.println("Name has a number, please try again"+"\n");
+						if(Character.isDigit(d) || day>31 || day <=0 || letter.isEmpty()) {
 							ValidInput = false;
 						}else {
 							ValidInput=true;
 						}
 						
-					}
+					}System.out.println("Try Again!");
 					 c=letter.charAt(0);
 			}catch(Exception e) {
-				System.out.println("Please Enter a Valid Input");
+				System.out.println("Please Enter a Valid Input"+"\n");
 			}
 		}while(!ValidInput);
 		
