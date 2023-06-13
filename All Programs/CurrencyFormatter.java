@@ -20,3 +20,9 @@ public class CurrencyFormatter {
 	}
 
 }
+//Input given by me :14.52
+//output is :
+// US: $14.52
+// India: ₹14.52
+// China: ¥14.52
+// France: 14,52 €
