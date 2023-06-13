@@ -30,8 +30,8 @@ public  class PrimitiveDataTypes {
 		//float is a very big number which has 7 digit precision.
 		
 		
-		float f=55555555555555555555555555.555445f;
-		System.out.println(f);//output would be 5.5555556E25 means 5.5555556x10^25
+		float f=5644564545454545.89896565623232545f;
+		System.out.println(f);//output would be 5.6445647E15 means 5.6445647x10^15
 							  //So you can see the number is pretty big but decimals precision is just unto 6-7 digits
 							  //So use float when you decimals precision is not that much needed.
 		double d=5644564545454545.89896565623232545d;
