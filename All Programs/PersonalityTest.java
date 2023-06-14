@@ -1,4 +1,3 @@
-package gfd;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -18,8 +17,21 @@ public class PersonalityTest {
 				String letter = scan.nextLine().toUpperCase();
 				System.out.println("Enter the day of the month you were born : ");
 				 day = scan.nextInt();
-				 
+				if(letter.isEmpty()) {
+					System.out.println("Name is Empty!");
+				}
 				 char ch[]=letter.toCharArray();
+				 for(char e:ch) {
+						if(Character.isDigit(e) ) {
+							System.out.println("Name has a Digit.");
+							break;
+						}}
+				 if(day>31){
+					 System.out.println("Day is Greater than 31. ");
+				 }else if(day<=0) {
+					 System.out.println("Day Should be greater than 0. ");
+				 }
+					
 					for(char d:ch) {
 						if(Character.isDigit(d) || day>31 || day <=0 || letter.isEmpty()) {
 							ValidInput = false;
@@ -27,7 +39,7 @@ public class PersonalityTest {
 							ValidInput=true;
 						}
 						
-					}System.out.println("Try Again!");
+					}
 					 c=letter.charAt(0);
 			}catch(Exception e) {
 				System.out.println("Please Enter a Valid Input"+"\n");
