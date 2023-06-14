@@ -1,3 +1,6 @@
+//HashSet has a built in function 
+//it removes duplicate entries on its own
+//it's the main difference between HashSet And ArrayList 
 import java.util.HashSet;
 import java.util.Iterator;
 
