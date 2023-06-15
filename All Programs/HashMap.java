@@ -76,3 +76,34 @@ That's the difference between Hashmap & LinkedHashmap :
 */
 
 
+
+//Another Example 
+//Here i am feeding the map with languages and countries 
+//and using getOrDefault method to find the output 
+//getOrDefault method returns a default if the key is not available
+import java.util.*;
+
+public class Solution {
+
+    static String findLanguage(String country) {
+HashMap<String,String> map=new HashMap<String,String>();
+map.put("Australia" , "English");
+map.put("England" , "English");
+map.put("Brazil" , "Portuguese");
+map.put("China" , "Chinese");
+map.put("France" , "French");
+map.put("Spain" , "Spanish");
+map.put("Germany" , "German");
+map.put("Japan" , "Japanese");
+map.put("Greece" , "Greek");
+map.put("India", "Hindi");
+String s=map.getOrDefault(country, "Hindi");
+System.out.println(s);
+return s;
+    }
+
+    public static void main(String args[]) {
+
+       findLanguage("Australia");
+    }
+}
