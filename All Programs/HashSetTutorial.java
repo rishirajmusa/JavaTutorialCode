@@ -4,9 +4,57 @@
 //
 //I can also used LinkedHashSet because it remembers the insertion order
 //
+//
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.*;
+public class MyHashSet {
+public static void main(String[] args) {
+    Collection<Integer> collection = new ArrayList<Integer>();//Making a collection of arraylist
+    collection.addAll(Arrays.asList(1,4,6,9,3));//feeding values to collection
+   System.out.println("ArrayList Original Output: ");
+   //Now Iterating through the ArrayList
+    Iterator<Integer> ita = collection.iterator();
+    while (ita.hasNext()) {
+        System.out.println(ita.next());
+    }
+    //Making a Linked HashSet
+    //and adding collection of arraylist that we made above into linked HashSet
+    Set<Integer> set1 = new LinkedHashSet<>();
+   set1.addAll(collection);
+   //
+   //making a HashSet and feeding collection of arraylist to that HashSet
+    Set<Integer> set = new HashSet<>();
+    set.addAll(collection);
+    // Create an iterator using the iterator() method
+   System.out.println("HashSet Output: "+"\n"+"HashSet OutPut would be different because it does not care about the order :");
+    Iterator<Integer> it = set.iterator();//Iterating through HashSet
+    while (it.hasNext()) {
+        System.out.println(it.next());
+    }
+   System.out.println("LinkedHashSet Output: "+"\n"+"LinkedHashSet cares about the order"+"\n"+ "That's the difference between HashSet & LinkedHashset : ");
+    Iterator<Integer> it1 = set1.iterator();//Iterating through Linked HashSet
+    while (it1.hasNext()) {
+        System.out.println(it1.next());
+    }
+}
 
+}
+
+
+
+
+
+
+//Here's a second example on how to use HashSet
+//
+//
+//
+//
 public  class HashSetTutorial {
 
 	public  static void main(String[] args) {
