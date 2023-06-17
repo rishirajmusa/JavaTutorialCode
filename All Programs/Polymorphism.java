@@ -69,4 +69,6 @@ public class Main
        System.out.println(obj.add(10, 20, 30));
    }
 }
-
+//by changing the return type we can't achieve polymorphims
+//but by changing the order of the variables we can 
+//
