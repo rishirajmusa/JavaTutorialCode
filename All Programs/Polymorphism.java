@@ -46,3 +46,27 @@ public  class Polymorphism {
 //its another name is method overloading
 //its called compile time polymorphism because at the time of compilation it's decided that which method will be called based on there type.
 //
+//This is an Example of Static binding or compile time polymorphism or method overloading
+//during compilation it'll decide which add method it'll call 
+//
+class SimpleCalculator
+{
+    int add(int a, int b)
+    {
+         return a+b;
+    }
+    int  add(int a, int b, int c)
+    {
+         return a+b+c;
+    }
+}
+public class Main
+{
+   public static void main(String args[])
+   {
+       SimpleCalculator obj = new SimpleCalculator();
+       System.out.println(obj.add(10, 20));
+       System.out.println(obj.add(10, 20, 30));
+   }
+}
+
