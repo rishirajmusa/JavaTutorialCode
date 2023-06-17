@@ -71,4 +71,17 @@ public class Main
 }
 //by changing the return type we can't achieve polymorphims
 //but by changing the order of the variables we can 
+//When a class has two or more than two methods which are having the same name but different types of order or number of parameters, it is known as Method Overloading.
+
+
+//Method overloading is resolved during compile time.
+//Three ways to overload methods:
 //
+//By changing the number of arguments/parameters.
+//
+//By changing the data type of arguments.
+//
+//By changing the Order of arguments.
+//
+//Changing only return type with same parameters of method is not Method Overloading.
+
