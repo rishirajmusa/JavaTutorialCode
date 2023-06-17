@@ -1,0 +1,8 @@
+Only inherited methods can be overridden.
+The overriding method must have same argument list.
+The overriding method must have same return type.
+The overriding method must not have more restrictive access modifier.
+If the overridden method  has default access, then the overriding one must be default, protected or public.
+If the overridden method is protected, then the overriding one must be protected or public.
+If the overridden method is public, then the overriding one must be only public.
+
