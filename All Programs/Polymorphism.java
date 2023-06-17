@@ -1,3 +1,12 @@
+//This type of polymorphism is known as method overriding or run time polymorphism
+//so there comes a question
+//why method overriding happens at run time not at compile time
+//the reason behind it is following
+//objects are created at run time 
+//so which object is pointing to which method is decided at run time after the object is created
+//so that's why method overriding happens at runtime
+
+
 class Bird{//Polymorphism in java means many form of a method  
 	public  void sing() {//here as we can see there is one sing method saying tweet
 		System.out.println("Tweet Tweet Tweet");
@@ -29,3 +38,11 @@ public  class Polymorphism {
 	}
 
 }
+
+
+
+
+//Another type of polymorphism is compile time polymorphism
+//its another name is method overloading
+//its called compile time polymorphism because at the time of compilation it's decided that which method will be called based on there type.
+//
